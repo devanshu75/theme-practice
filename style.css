@@ -1,3 +1,38 @@
+:root {
+  --v: #9400d3;
+  --i: #4b0082;
+  --b: #0000ff;
+  --g: #00ff00;
+  --y: #ffff00;
+  --o: #ff7f00;
+  --r: #ff0000;
+}
+
+h1 {
+  color: var(--v);
+}
+
+h2 {
+  color: var(--i);
+}
+
+h3 {
+  color: var(--b);
+}
+
+h4 {
+  color: var(--g);
+}
+
+h5 {
+  color: var(--y);
+}
+
+h6 {
+  color: var(--o);
+}
+
+
 .text-wrap {
   height: 100%;
   background: #ffffff;
@@ -11,34 +46,6 @@
 .container {
   height: 700px;
 }
-
-/* #v {
-  color: #9400d3;
-}
-
-#i {
-  color: #4b0082;
-}
-
-#b {
-  color: #0000ff;
-}
-
-#g {
-  color: #00ff00;
-}
-
-#y {
-  color: #ffff00;
-}
-
-#o {
-  color: #ff7f00;
-}
-
-#r {
-  color: #ff0000;
-} */
 
 /* The switch - the box around the slider */
 .switch {
